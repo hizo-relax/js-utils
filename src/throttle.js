@@ -5,14 +5,14 @@
  * @returns 
  */
 function throttle(fn, delay) {
-	let timer;
-	let flag = false;
-	return (e) => {
-		if (flag) return;
-		flag = true;
-		timer = setTimeout(() => {
-			fn(e);
-			flag = false;
-		}, delay);
-	}
+    let timer;
+    let flag = false;
+    return (e) => {
+        if (flag) return;
+        flag = true;
+        timer = setTimeout(() => {
+            fn(e);
+            flag = false;
+        }, delay);
+    }
 }

@@ -4,7 +4,8 @@
     "description": "js-utils",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
@@ -17,6 +18,9 @@
     },
     "homepage": "https://github.com/hizo-relax/JS-Utils#readme",
     "devDependencies": {
-        "eslint": "^8.25.0"
+        "@commitlint/cli": "^17.1.2",
+        "@commitlint/config-conventional": "^17.1.0",
+        "eslint": "^8.25.0",
+        "husky": "^8.0.1"
     }
 }

@@ -1,5 +1,5 @@
 # Editor configuration, see https://editorconfig.org
-# 注意：此配置要生效，需要在编辑器配置 EditorConfig 插件
+# 注意：此配置要生效，需要在编辑器安装 EditorConfig 插件
 
 root = true
 

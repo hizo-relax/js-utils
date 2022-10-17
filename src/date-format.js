@@ -4,7 +4,7 @@
  * @param {*} date 可传入两种格式 (Date格式 、 时间戳)
  * @returns 
  */
-function dateFormat(format, date) {
+export function dateFormat(format, date) {
     /* 将时间戳转换为 Date 格式 */
     const isNumber = /^[0-9]+.?[0-9]*/.test(date);
     if (isNumber) {

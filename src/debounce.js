@@ -4,7 +4,7 @@
  * @param {*} delay 多久执行一次
  * @returns 
  */
-function debounce(fn, delay) {
+export function debounce(fn, delay) {
     let timer;
     return function() {
         if (timer) {

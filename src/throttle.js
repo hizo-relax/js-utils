@@ -4,13 +4,12 @@
  * @param {*} delay 多久执行一次
  * @returns 
  */
-function throttle(fn, delay) {
-    let timer;
+export function throttle(fn, delay) {
     let flag = false;
     return (e) => {
         if (flag) return;
         flag = true;
-        timer = setTimeout(() => {
+        setTimeout(() => {
             fn(e);
             flag = false;
         }, delay);

@@ -45,17 +45,3 @@ const test_value = numbers.reduce(({ max, min }, cur) => {
 		min: Math.min(min, cur)
 	};
 }, { max: -Infinity, min: Infinity });
-
-
-// function getId(id) {
-// 	return new Promise((reslove, reject) => {
-// 		setTimeout(() => {
-// 			reslove(id);
-// 		}, 1000);
-// 	});
-// }
-// const ids = [ 10, 20, 30 ];
-// ids.reduce(async (promise, cur) => {
-// 	await promise;
-// 	return getId(cur);
-// }, Promise.resolve());

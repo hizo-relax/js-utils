@@ -1,8 +1,7 @@
 /**
- * 防抖函数
+ * @description: 防抖函数
  * @param {*} fn 需要处理的函数
  * @param {*} delay 多久执行一次
- * @returns 
  */
 export function debounce(fn, delay) {
     let timer;

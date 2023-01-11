@@ -1,8 +1,11 @@
 /**
  * @description: 发布订阅模式
- * @member {object}: messageQueue - 消息队列
- * @member {function}: subscribe - 订阅
- * @member {function}: publish - 发布
+ * @member {Object} messageQueue - 消息队列
+ * @member {Function} subscribe - 订阅
+ * @member {Function} publish - 发布
+ * @example
+ *      PubsubMode.subscribe("test", (value) => { console.log(value) });
+ *      PubsubMode.publish("test", "发布数据");
  */
 export const PubsubMode = {
     messageQueue: {},

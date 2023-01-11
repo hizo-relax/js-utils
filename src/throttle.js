@@ -1,8 +1,7 @@
 /**
- * 节流函数
+ * @description: 节流函数
  * @param {*} fn 需要处理的函数
  * @param {*} delay 多久执行一次
- * @returns 
  */
 export function throttle(fn, delay) {
     let flag = false;

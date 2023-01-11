@@ -1,8 +1,8 @@
 /**
- * 格式化日期
- * @param {*} format YYYY(年)-MM(月)-DD(日) hh(时)-mm(分)-ss(秒)
- * @param {*} date 可传入两种格式 (Date格式 、 时间戳)
- * @returns 
+ * @description: 格式化日期
+ * @param {String} format YYYY(年)-MM(月)-DD(日) hh(时)-mm(分)-ss(秒)
+ * @param {Date | Number} date 可传入两种格式 (Date格式 、 时间戳)
+ * @example dateFormat("YYYY-MM-DD hh-mm-ss", new Date()) => 2014-05-21 13:14:00
  */
 export function dateFormat(format, date) {
     /* 将时间戳转换为 Date 格式 */
